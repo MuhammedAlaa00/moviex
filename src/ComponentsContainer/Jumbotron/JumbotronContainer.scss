@@ -1,0 +1,16 @@
+.TitlePare {
+    display: flex;
+    align-items: center;
+    @media (max-width:800px) {
+        justify-content: center;
+    }
+    h2 {
+        color: #C81D25;
+        margin: 5px;
+        font-size: 3rem;
+        @media (min-width: 320px) and (max-width:767px) {
+            font-size: 2.2rem;
+        }
+    }
+}
+

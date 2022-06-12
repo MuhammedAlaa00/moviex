@@ -1,0 +1,105 @@
+.FormParent{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px auto;
+    h3{
+        font-size: 2rem;
+        color: #fff;
+    }
+    @media (min-width: 320px) and (max-width:767px) {
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+.buttonContainer{
+    margin-top: 20px;
+    .infoContainer{ 
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 8px 0px;
+        .leftInfoContainer,
+        .rightInfoContainer{
+            display: flex;
+            align-items: center;
+            span:last-child{
+                margin-left: 5px;
+                font-size: 15px;
+            }
+            .helpPageLink{
+                text-decoration: none;
+                color: #8c8c8c;
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+        
+    }
+}
+.errormsg{
+    font-size: 12.5px;
+    color: #bf5b05;
+}
+.margbtm{
+    margin-bottom: 10px;
+}
+.authAndSignupLinks{
+    display: flex;
+    flex-direction: column;   
+    margin: 15px 0;
+    .FacebookAuth{
+        margin: 5px 0;
+        a{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            span:last-child{
+                margin-left: 5px;
+                font-size: 15px;
+                color: #737373;
+            }
+        }
+    }
+    .SignUpContainer,
+    .LearnmoreContainer{
+        margin: 5px 0;
+        span{
+            color: #737373;
+            font-weight: 500;
+        }
+        a{
+            margin-left: 5px;
+            font-size: 15px;
+            text-decoration: none;
+            &:hover , &:focus , &:active{
+                text-decoration: none;
+            }
+        }
+    }
+    .SignUpContainer{
+        a {
+            color: #fff;
+        }
+    }
+    .LearnmoreContainer{
+        a{
+            color: #0080ff;
+        }
+        .infoMore{
+            transition: all 0.3s ease-in-out;
+            margin: 15px auto;
+            color: #737373;
+        }
+        .displayView{
+            opacity: 1;
+        }
+        .displayHidden{
+            opacity: 0;
+        }
+    }
+}

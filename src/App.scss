@@ -1,0 +1,23 @@
+.body{
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition-duration: 500ms;
+}
+h2 {
+    color: #fff;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #201f1f
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #292B30;
+}
