@@ -5,7 +5,7 @@ import './devices.scss';
 import './JumbotronContainer.scss'
 function JumbotronContainer() {
     const Jumbodata = JumboData.map(item=>item);
-    function addStr (str , index , StringToAdd){
+    function addStr (str , index , StringToAdd) {
         return str.substring(0,index) + StringToAdd + str.substring(index, str.length)
         }
     const JumboDataFirstTitle = Jumbodata[0].title;
