@@ -18,6 +18,22 @@ export const HeaderoverLayContainer = styled.div`
   height: 100%;
   background-color: rgb(0 0 0 / 42%);
 `;
+export const TrailerLink = styled.button`
+  background-color: #dc0510;
+  border: none;
+  color: #fff;
+  /* width: 100%;
+  height: 100%; */
+  border-radius: 3px;
+  padding: 10px 20px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  &:hover {
+    background-color: #c81d25;
+  }
+`;
 export const BrowseFrame = styled.div`
   height: 100px;
   display: flex;
@@ -31,9 +47,9 @@ export const BrowseFrame = styled.div`
 export const BrowseBodyFrame = styled.div`
   display: flex;
   height: calc(100% - 125px);
-  padding: 25px 0;
+  /* padding: 25px 0; */
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: left;
   overflow: hidden;
   width: 95%;

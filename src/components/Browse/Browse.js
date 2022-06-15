@@ -10,6 +10,7 @@ import {
   MainBrowseContentContainer,
   BrowseFrame,
   BrowseBodyFrame,
+  TrailerLink,
   Title,
   SubTitle,
   Text,
@@ -44,6 +45,10 @@ Browse.Logo = function browseLogo({ ...restprops }) {
 Browse.LogoutLink = function logouLink({ children, ...restprops }) {
   return <LogLink {...restprops}>{children}</LogLink>;
 };
+Browse.TrailerBtn  = function trailerBtn ({children , ...restprops})
+{
+  return <TrailerLink {...restprops}>{children}</TrailerLink>
+}
 Browse.RightSideContainer = function rightsideContainer({
   children,
   ...restprops
